@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'login',
     loadChildren: './landing/login/login.module#LoginPageModule'
   },
+  {
+    path: 'main',
+    loadChildren: './side-menu/side-menu.module#SideMenuModule'
+  }
 ];
 
 @NgModule({
