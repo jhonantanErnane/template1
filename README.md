@@ -1,2 +1,2 @@
 # template1
-Project for the presentation at work
+<i>this is just a project that I created for a presentation at work</i>
