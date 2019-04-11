@@ -5,7 +5,7 @@ import { SideMenuPage } from './side-menu/side-menu.page';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'main/home',
+    redirectTo: '/main/home',
     pathMatch: 'full'
   },
   {
@@ -15,6 +15,10 @@ const routes: Routes = [
       {
         path: 'home',
         loadChildren: './home/home.module#HomePageModule'
+      },
+      {
+        path: 'list',
+        loadChildren: './list/list.module#ListPageModule'
       }
     ]
   },
