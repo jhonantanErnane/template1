@@ -11,7 +11,7 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items" [routerLink]="['/main/list/detail/', item.icon]">
+    <ion-item *ngFor="let item of items" [routerLink]="['detail/', item.icon]">
       <ion-icon [name]="item.icon" slot="start"></ion-icon>
       {{item.title}}
       <div class="item-note" slot="end">

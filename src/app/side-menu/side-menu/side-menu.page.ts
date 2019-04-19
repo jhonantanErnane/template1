@@ -22,6 +22,11 @@ export class SideMenuPage implements OnDestroy {
       icon: 'list'
     },
     {
+      title: 'Tabs',
+      url: '/main/tabs',
+      icon: 'stats'
+    },
+    {
       title: 'Logout',
       url: '/',
       icon: 'log-out'
